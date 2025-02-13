@@ -6,7 +6,6 @@ import {
   FaBars,
   FaTimes,
   FaFacebook,
-  FaInstagram,
   FaGithub,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";

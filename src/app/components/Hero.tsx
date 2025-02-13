@@ -9,7 +9,7 @@ function Hero() {
         Apisit  Angsuphan
       </h1>
       <h2 className="text-4xl">
-        I'm a Front End Developer.
+        I&apos;m a Front End Developer.
       </h2>
       <p className="text-[#ececec] pt-4 max-w-[700px]">
       Having worked in tutoring, online sales, compliance inspector, organizational coordination, and web development, 
