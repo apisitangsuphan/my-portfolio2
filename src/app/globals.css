@@ -15,7 +15,10 @@
   .banner{
     background: url('assets/banner.png') no-repeat right center;
     background-size: cover;
-
+  }
+  .about{
+    background: url('assets/about.png') no-repeat right center;
+    background-size: cover;
   }
 }
 

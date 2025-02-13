@@ -30,10 +30,10 @@ function Navbar() {
       <div>
         <ul className="md:flex hidden ">
           <li>
-            <Link href={"/"}>Home</Link>
+            <Link href={"#home"}>Home</Link>
           </li>
           <li>
-            <Link href={"/"}>About</Link>
+            <Link href={"#about"}>About</Link>
           </li>
           <li>
             <Link href={"/"}>Skills</Link>
