@@ -9,15 +9,15 @@
     font-family: 'Raleway', sans-serif;
   }
   li{
-    @apply px-4 cursor-pointer;
+    @apply px-4 cursor-pointer hover:text-white;
     
   }
   .banner{
-    background: url('assets/banner.png') no-repeat right center;
+    background: url('./assets/banner.png') no-repeat right center;
     background-size: cover;
   }
   .about{
-    background: url('assets/about.png') no-repeat right center;
+    background: url('./assets/about.png') no-repeat right center;
     background-size: cover;
   }
 }
