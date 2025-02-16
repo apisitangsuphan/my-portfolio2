@@ -9,7 +9,7 @@ import {
   FaGithub,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import logo from "./../assets/logo.png";
+import logo from '../../../public/assets/logo.png'
 
 function Navbar() {
   const [navbar, setNavbar] = useState<boolean>(false);
@@ -17,7 +17,8 @@ function Navbar() {
     setNavbar(!navbar);
   };
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#08111e] text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#08111e] text-gray-300 md:px-10">
+      {/* Menu pc */}
       <div>
         <Link href={"/"}>
           {" "}
@@ -25,9 +26,9 @@ function Navbar() {
         </Link>
       </div>
 
-      {/* Menu pc */}
+      
       <div>
-        <ul className="md:flex hidden ">
+        <ul className="md:flex hidden">
           <li>
             <Link href={"#home"}>Home</Link>
           </li>

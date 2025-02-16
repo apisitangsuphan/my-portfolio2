@@ -15,6 +15,7 @@ function About() {
             <div className="sm:text-right text-4xl font-bold">
               <p>Apisit Angsuphan </p>
             </div>
+            
             <div className="">
               <p>
                 2Lorem ipsum dolor sit amet consectetur omnis quae laudantium
