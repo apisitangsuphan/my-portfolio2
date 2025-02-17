@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
+import {Link} from "react-scroll";
 import {
   FaBars,
   FaTimes,
@@ -17,10 +17,10 @@ function Navbar() {
     setNavbar(!navbar);
   };
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#08111e] text-gray-300 md:px-10">
+    <div className="z-10 fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#08111e] text-gray-300 md:px-10">
       {/* Menu pc */}
       <div>
-        <Link href={"/"}>
+        <Link to="home">
           {" "}
           <Image src={logo} alt="Logo" className="w-[50px] rounded-full" />
         </Link>
@@ -30,19 +30,19 @@ function Navbar() {
       <div>
         <ul className="md:flex hidden">
           <li>
-            <Link href={"#home"}>Home</Link>
+            <Link to="home" smooth={true} duration={800}>Home</Link>
           </li>
           <li>
-            <Link href={"#about"}>About</Link>
+            <Link to="about" smooth={true} duration={800}>About</Link>
           </li>
           <li>
-            <Link href={"/"}>Skills</Link>
+            <Link to="skills" smooth={true} duration={800}>Skills</Link>
           </li>
           <li>
-            <Link href={"/"}>Work</Link>
+            <Link to="work" smooth={true} duration={800}>Work</Link>
           </li>
           <li>
-            <Link href={"/"}>Contact</Link>
+            <Link to="contact" smooth={true} duration={800}>Contact</Link>
           </li>
         </ul>
       </div>
@@ -60,19 +60,19 @@ function Navbar() {
         }
       >
         <li className="py-6 text-1xl uppercase font-semibold">
-          <Link href={"/"}>Home</Link>
+          <Link to="home" smooth={true} duration={800}>Home</Link>
         </li>
         <li className="py-6 text-1xl uppercase font-semibold">
-          <Link href={"/"}>About</Link>
+          <Link to="about" smooth={true} duration={800}>About</Link>
         </li>
         <li className="py-6 text-1xl uppercase font-semibold">
-          <Link href={"/"}>Skills</Link>
+          <Link to="skills" smooth={true} duration={800}>Skills</Link>
         </li>
         <li className="py-6 text-1xl uppercase font-semibold">
-          <Link href={"/"}>Work</Link>
+          <Link to="work" smooth={true} duration={800}>Work</Link>
         </li>
         <li className="py-6 text-1xl uppercase font-semibold">
-          <Link href={"/"}>Contact</Link>
+          <Link to="contact" smooth={true} duration={800}>Contact</Link>
         </li>
       </ul>
       {/* Social Icons ( Left side) */}
@@ -81,7 +81,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10] duration-300 bg-[#0866FF] rounded-full rounded-l-none">
             <Link
               className="flex justify-between items-center w-full text-gray-300"
-              href={"/"}
+              to="home"
             >
               Facebook
               <FaFacebook size={30} />
@@ -90,7 +90,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10] duration-300 bg-slate-900 rounded-full rounded-l-none mt-5">
             <Link
               className="flex justify-between items-center w-full text-gray-300"
-              href={"/"}
+              to="https://github.com/apisitangsuphan" target="_blank"
             >
               Github
               <FaGithub size={30} />
@@ -99,7 +99,7 @@ function Navbar() {
           <li className="w-[160px] h-[60px] flex justify-between ml-[-100px] hover:ml-[-10] duration-300 bg-pink-600 rounded-full rounded-l-none mt-5">
             <Link
               className="flex justify-between items-center w-full text-gray-300"
-              href={"/"}
+              to="home"
             >
               Email
               <HiOutlineMail size={30} />

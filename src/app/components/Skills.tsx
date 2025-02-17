@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 function Skills() {
   return (
-    <div id="skills" className="w-full h-screen skill text-gray-300">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col w-full h-full items-center">
+    <div id="skills" className="w-full h-screen  skill text-gray-300">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full items-center">
         <div className="">
           <p className="text-4xl font-bold inline border-b-4 border-teal-600">
             Skills
@@ -15,7 +15,7 @@ function Skills() {
             iste unde est, quod libero.
           </p>
         </div>
-        <div className="w-full text-center py-8 grid grid-cols-2 sm:grid-cols-4 ">
+        <div className="w-full text-center py-8 grid grid-cols-1 min-[280px]:grid-cols-2 sm:grid-cols-4 lg:grid-cols-5">
           <div className="hover:scale-110 duration-500">
             <Image
               src="/assets/HTML.png"
