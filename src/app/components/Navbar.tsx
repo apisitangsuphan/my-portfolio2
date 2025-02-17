@@ -5,7 +5,6 @@ import { Link } from "react-scroll";
 import { FaBars, FaTimes, FaFacebook, FaGithub } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsTelephone } from "react-icons/bs";
-import { HiOutlineDocumentDownload } from "react-icons/hi";
 
 import logo from "../../../public/assets/logo.png";
 
