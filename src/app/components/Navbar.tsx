@@ -144,7 +144,7 @@ function Navbar() {
               <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[240px] h-[60px] flex justify-between ml-[-180px] hover:ml-[-10px] duration-300 bg-pink-600 rounded-full rounded-l-none mt-5">
+          <li className="w-[240px] h-[60px] flex justify-between ml-[-180px] hover:ml-[-10px] duration-300 bg-[#C5221F] rounded-full rounded-l-none mt-5">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="mailto:bankgim@gmail.com"
