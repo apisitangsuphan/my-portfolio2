@@ -31,7 +31,7 @@ function Navbar() {
               smooth={true}
               duration={800}
               spy={true}
-              activeClass="text-white font-semibold"
+              activeClass="text-white font-semibold underline underline-offset-8"
             >
               Home
             </Link>
@@ -42,7 +42,7 @@ function Navbar() {
               smooth={true}
               duration={800}
               spy={true}
-              activeClass="text-white font-semibold"
+              activeClass="text-white font-semibold underline underline-offset-8"
             >
               About
             </Link>
@@ -53,7 +53,7 @@ function Navbar() {
               smooth={true}
               duration={800}
               spy={true}
-              activeClass="text-white font-semibold"
+              activeClass="text-white font-semibold underline underline-offset-8"
             >
               Skills
             </Link>
@@ -64,7 +64,7 @@ function Navbar() {
               smooth={true}
               duration={800}
               spy={true}
-              activeClass="text-white font-semibold"
+              activeClass="text-white font-semibold underline underline-offset-8"
             >
               Work
             </Link>
@@ -75,7 +75,7 @@ function Navbar() {
               smooth={true}
               duration={800}
               spy={true}
-              activeClass="text-white font-semibold"
+              activeClass="text-white font-semibold underline underline-offset-8"
             >
               Contact
             </Link>

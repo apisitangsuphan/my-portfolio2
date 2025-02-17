@@ -2,17 +2,14 @@ import React from "react";
 import Image from "next/image";
 function Skills() {
   return (
-    <div id="skills" className="w-full h-screen skill text-gray-300">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full items-center">
+    <div id="skills" className="w-full h-full min-[629px]:h-screen skill text-gray-300">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full items-center px-7">
         <div className="">
-          <p className="text-4xl font-bold inline border-b-4 border-teal-600">
+          <p className=" sm:text-4xl font-bold inline border-b-4 border-teal-600">
             Skills
           </p>
-          <p className="py-4">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod fuga
-            fugiat nobis. Quas quidem deleniti inventore consectetur,
-            necessitatibus eligendi quo reiciendis culpa vel provident ducimus,
-            iste unde est, quod libero.
+          <p className="py-4 text-lg sm:text-xl">
+          I can develop web applications based on assigned designs and seamlessly connect to the backend to retrieve and display necessary data through APIs.
           </p>
         </div>
         <div className="w-full text-center py-8 grid grid-cols-1 min-[280px]:grid-cols-2 sm:grid-cols-4 lg:grid-cols-5">

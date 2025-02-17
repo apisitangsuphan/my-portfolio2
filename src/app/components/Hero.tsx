@@ -8,11 +8,11 @@ function Hero() {
         <p className="text-[#ececec]">Hi, My name is</p>
         <h1 className="text-4xl sm:text-6xl font-bold">Apisit Angsuphan</h1>
         <h2 className="text-4xl">I&apos;m a Front End Developer.</h2>
-        <p className="text-[#ececec] pt-4 max-w-[700px]">
+        <p className="text-[#ececec] pt-4 max-w-[700px] sm:text-lg">
           Having worked in tutoring, online sales, compliance inspector,
           organizational coordination, and web development,
         </p>
-        <p className="text-[#ececec] py-3 max-w-[700px]">
+        <p className="text-[#ececec] py-3 max-w-[700px] sm:text-lg">
           I discovered that Front-End Development is my true passion.
         </p>
         <div>
