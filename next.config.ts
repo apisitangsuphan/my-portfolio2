@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone",
+  reactStrictMode: true, // เปิด Strict Mode
+  experimental: {
+    appDir: true, // ถ้าใช้ Next.js 14+ และโหมด App Router
+  },
 };
 
 module.exports = nextConfig;
