@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 function Skills() {
   return (
-    <div id="skills" className="w-full h-screen  skill text-gray-300">
+    <div id="skills" className="w-full h-screen skill text-gray-300">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full items-center">
         <div className="">
           <p className="text-4xl font-bold inline border-b-4 border-teal-600">
@@ -16,7 +16,7 @@ function Skills() {
           </p>
         </div>
         <div className="w-full text-center py-8 grid grid-cols-1 min-[280px]:grid-cols-2 sm:grid-cols-4 lg:grid-cols-5">
-          <div className="hover:scale-110 duration-500">
+          <div className="hover:scale-110 hover:font-extrabold duration-500 my-3 sm:my-6">
             <Image
               src="/assets/HTML.png"
               alt="HTML logo"
@@ -27,7 +27,7 @@ function Skills() {
             <p className="my-4">HTML</p>
           </div>
 
-          <div className="hover:scale-110 duration-500">
+          <div className="hover:scale-110 hover:font-extrabold duration-500 my-3 sm:my-6">
             <Image
               src="/assets/CSS.png"
               alt="CSS logo"
@@ -38,7 +38,7 @@ function Skills() {
             <p className="my-4">CSS</p>
           </div>
 
-          <div className="hover:scale-110 duration-500">
+          <div className="hover:scale-110 hover:font-extrabold duration-500 my-3 sm:my-6">
             <Image
               src="/assets/JAVASCRIPT.png"
               alt="JS logo"
@@ -46,27 +46,84 @@ function Skills() {
               height={200}
               className="mx-auto w-20"
             />
-            <p className="my-4">JS</p>
+            <p className="my-4">Java Script</p>
           </div>
-          <div className="hover:scale-110 duration-500">
+
+          <div className="hover:scale-110 hover:font-extrabold duration-500 my-3 sm:my-6">
             <Image
-              src="/assets/JAVASCRIPT.png"
+              src="/assets/TS.png"
               alt="JS logo"
               width={200}
               height={200}
               className="mx-auto w-20"
             />
-            <p className="my-4">JS</p>
+            <p className="my-4">TYpe Script</p>
           </div>
-          <div className="hover:scale-110 duration-500">
+
+          <div className="hover:scale-110 hover:font-extrabold duration-500 my-3 sm:my-6">
             <Image
-              src="/assets/JAVASCRIPT.png"
+              src="/assets/react.png"
               alt="JS logo"
               width={200}
               height={200}
               className="mx-auto w-20"
             />
-            <p className="my-4">JS</p>
+            <p className="my-4">React</p>
+          </div>
+
+          <div className="hover:scale-110 hover:font-extrabold duration-500 my-3 sm:my-6">
+            <Image
+              src="/assets/nextjs.png"
+              alt="JS logo"
+              width={200}
+              height={200}
+              className="mx-auto w-20 bg-white rounded-full"
+            />
+            <p className="my-4">Next js</p>
+          </div>
+
+          <div className="hover:scale-110 hover:font-extrabold duration-500 my-3 sm:my-6">
+            <Image
+              src="/assets/tailwindcss.png"
+              alt="JS logo"
+              width={200}
+              height={200}
+              className="mx-auto w-20 "
+            />
+            <p className="mt-12 mb-4">Tailwind</p>
+          </div>
+
+          <div className="hover:scale-110 hover:font-extrabold duration-500 my-3 sm:my-6">
+            <Image
+              src="/assets/mui.png"
+              alt="JS logo"
+              width={200}
+              height={200}
+              className="mx-auto w-20"
+            />
+            <p className="my-4">MUI</p>
+          </div>
+
+          <div className="hover:scale-110 hover:font-extrabold duration-500 my-3 sm:my-6">
+            <Image
+              src="/assets/netlify.png"
+              alt="JS logo"
+              width={200}
+              height={200}
+              className="mx-auto w-20"
+            />
+            <p className="my-4">Netlify</p>
+          </div>
+
+          <div className="hover:scale-110 hover:font-extrabold duration-500 my-3 sm:my-6">
+            <Image
+              src="/assets/axios.png"
+              alt="JS logo"
+              width={200}
+              height={200}
+              className="mx-auto w-20"
+            />
+            <p className="my-4">Axios</p>
           </div>
         </div>
       </div>
