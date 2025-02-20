@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 const Work = () => {
   const projects = [
     {
@@ -52,7 +53,7 @@ const Work = () => {
       id="work"
       className="w-full h-full work text-gray-300 items-center flex justify-center"
     >
-      <div className="max-w-[1000px]  mx-auto p-4 flex flex-col justify-center w-full h-full my-20">
+      <div className="max-w-[1000px]  mx-auto p-4 flex flex-col  justify-center w-full h-full my-20">
         <div className="">
           <p className="sm:text-4xl font-bold inline border-b-4 border-teal-600">
             My Mini Projects
@@ -62,20 +63,20 @@ const Work = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6 justify-center mt-5">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-center mt-5">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-slate-900 rounded-lg shadow-lg overflow-hidden hover:scale-105"
+              className="bg-slate-900 rounded-lg shadow-lg overflow-hidden hover:scale-105 mx-2 sm:mx-0"
             >
-              <img
+              <Image
                 src={project.image}
                 alt={project.title}
                 className="w-full h-48 cover"
               />
-              <div className="py-4 px-6">
+              <div className="py-2 sm:py-4 px-8 sm:px-6">
                 <h3 className="text-xl font-semibold">{project.title}</h3>
-                <p className="text-gray-400 mt-2">{project.description}</p>
+                <p className="text-gray-400 mt-1">{project.description}</p>
                 <Link
                   href={project.link}
                   className="inline-block mt-2 text-blue-400 hover:text-blue-300"
