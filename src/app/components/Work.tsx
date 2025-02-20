@@ -15,7 +15,7 @@ const Work = () => {
       description:
         "A project showcasing Front End Development skills and API fetching.",
       image:
-        "https://app.netlify.com/.netlify/images?url=https://d33wubrfki0l68.cloudfront.net/67b3109a203cef000844a0e5/screenshot_2025-02-17-10-35-12-0000.webp&fit=cover&h=500&q=40&w=800",
+        "/assets/works/work2.webp",
       link: "https://singlepage-next-framer-motion-tailwin.netlify.app/",
     },
     {
@@ -23,7 +23,7 @@ const Work = () => {
       description:
         "A webpage displaying world attractions, built with MUI, Next.js, and API fetching.",
       image:
-        "https://images.unsplash.com/photo-1566371486490-560ded23b5e4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "/assets/works/work3.avif",
       link: "https://fetch-api-mui-nextjs-ts.netlify.app/",
     },
     {
@@ -31,7 +31,7 @@ const Work = () => {
       description:
         "A Pokémon search tool by name, developed using Axios and the PokeAPI.",
       image:
-        "https://th.bing.com/th/id/R.f032534ab7ce5fb787fa8b92d8297d9f?rik=%2b1m1L1BVrn4ieg&riu=http%3a%2f%2fngn-mag.com%2fwp-content%2fuploads%2f2015%2f11%2ffond-ecran-pokemon-135.jpg&ehk=TWIfbIX0rnfVkuBfUUMagmbhpAs%2bloLfkzT3gaP5Hc4%3d&risl=&pid=ImgRaw&r=0",
+      "/assets/works/work4.jpg",
       link: "https://search-pokemon-by-axios.netlify.app/",
     },
     /* {
@@ -73,6 +73,9 @@ const Work = () => {
                 src={project.image}
                 alt={project.title}
                 className="w-full h-48 cover"
+                
+                width={800}
+                height={800}
               />
               <div className="py-2 sm:py-4 px-8 sm:px-6">
                 <h3 className="text-xl font-semibold">{project.title}</h3>
