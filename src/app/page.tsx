@@ -4,6 +4,7 @@ import About from "./components/About"
 import Skills from "./components/Skills";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+import WorkSection from "./components/WorkSection"
 export default function Home() {
   return (
     <div>
@@ -11,7 +12,8 @@ export default function Home() {
       <Hero/>
       <About/>
       <Skills/>
-      <Work />
+      {/* <Work /> */}
+      <WorkSection/>
       <Contact />
     </div>
   );

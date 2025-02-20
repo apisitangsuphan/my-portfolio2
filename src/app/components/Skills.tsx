@@ -5,11 +5,11 @@ function Skills() {
     <div id="skills" className="w-full h-full min-[629px]:h-screen skill text-gray-300">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full items-center px-7">
         <div className="">
-          <p className=" sm:text-4xl font-bold inline border-b-4 border-teal-600">
+          <p className="sm:text-4xl font-bold inline border-b-4 border-teal-600">
             Skills
           </p>
           <p className="py-4 text-lg sm:text-xl">
-          I can develop web applications based on assigned designs and seamlessly connect to the backend to retrieve and display necessary data through APIs.
+          I can develop web applications based on assigned designs and seamlessly connect to the backend to retrieve and display necessary data through APIs. I specialize in React, Next.js, and TypeScript, ensuring scalable and maintainable code. Additionally, I optimize performance, follow best practices in frontend development, and effectively collaborate with teams to deliver high-quality products
           </p>
         </div>
         <div className="w-full text-center py-8 grid grid-cols-1 min-[280px]:grid-cols-2 sm:grid-cols-4 lg:grid-cols-5">

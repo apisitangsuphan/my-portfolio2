@@ -96,27 +96,32 @@ function Navbar() {
         }
       >
         <li className="py-6 text-1xl uppercase font-semibold">
-          <Link to="home" smooth={true} duration={800}>
+          <Link to="home" smooth={true} duration={800} spy={true}
+              activeClass="text-white font-semibold underline underline-offset-8">
             Home
           </Link>
         </li>
         <li className="py-6 text-1xl uppercase font-semibold">
-          <Link to="about" smooth={true} duration={800}>
+          <Link to="about" smooth={true} duration={800} spy={true}
+              activeClass="text-white font-semibold underline underline-offset-8">
             About
           </Link>
         </li>
         <li className="py-6 text-1xl uppercase font-semibold">
-          <Link to="skills" smooth={true} duration={800}>
+          <Link to="skills" smooth={true} duration={800} spy={true}
+              activeClass="text-white font-semibold underline underline-offset-8">
             Skills
           </Link>
         </li>
         <li className="py-6 text-1xl uppercase font-semibold">
-          <Link to="work" smooth={true} duration={800}>
+          <Link to="work" smooth={true} duration={800} spy={true}
+              activeClass="text-white font-semibold underline underline-offset-8">
             Work
           </Link>
         </li>
         <li className="py-6 text-1xl uppercase font-semibold">
-          <Link to="contact" smooth={true} duration={800}>
+          <Link to="contact" smooth={true} duration={800} spy={true}
+              activeClass="text-white font-semibold underline underline-offset-8">
             Contact
           </Link>
         </li>
