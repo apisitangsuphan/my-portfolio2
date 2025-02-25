@@ -21,7 +21,7 @@ function About() {
             <p>Apisit Angsuphan</p>
           </div>
           <div className="max-w-[1000px] w-full px-4 sm:col-span-2">
-            <p className="text-lg md:text-xl sm:text-left mb-10">
+            <p className="text-lg sm:text-xl sm:text-left mb-10">
               I am Apisit Angsuphan, a versatile and dedicated professional with
               a background in both technology and education. I hold a Bachelor
               of Science in Physics from Chulalongkorn University, where I did
