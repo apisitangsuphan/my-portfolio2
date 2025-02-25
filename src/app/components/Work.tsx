@@ -59,7 +59,7 @@ const Work = () => {
             My Mini Projects
           </p>
           <p className="py-4 text-lg sm:text-xl">
-            Have a look at some of my recent projects
+            Please take a look at my recent projects. (Updated daily)
           </p>
         </div>
 
