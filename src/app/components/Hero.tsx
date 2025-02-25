@@ -1,6 +1,7 @@
+"use client"
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import Link from "next/link";
+import { Link } from "react-scroll";
 function Hero() {
   return (
     <div id="home" className="w-[100%] h-screen banner">
@@ -16,7 +17,7 @@ function Hero() {
           I discovered that Front-End Development is my true passion.
         </p>
         <div>
-          <Link href={"#work"}>
+          <Link to="work" smooth={true} duration={800} href={"#work"}>
             <button className="bg-teal-600 text-white rounded-full border-2 px-6 py-3 my-2 flex justify-between items-center hover:bg-teal-500 hover:border-teal-600">
               View Work{" "}
               <span className="duration-300">
