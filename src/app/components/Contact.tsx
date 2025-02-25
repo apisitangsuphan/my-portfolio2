@@ -7,7 +7,7 @@ function Contact() {
     <form action="https://formsubmit.co/bankgim@gmail.com" method="POST" className='flex flex-col max-w-[600px] w-full'>
       <div className="pb-8">
         <p className='text-4xl sm:text-6xl font-bold inline border-b-4 border-teal-400 '>Contact</p>
-        <p className=' py-4 text-lg md:text-2xl'>Please feel free to get in touch with me.</p>
+        <p className=' py-4 text-lg md:text-2xl'>I look forward to hearing from you. Feel free to reach out anytime.</p>
       </div>
       <input type="text" placeholder='Name' name="name" className='rounded-full bg-gray-700 focus:border-blue-500 focus:bg-gray-800 focus:outline-none  py-2 px-4'/>
       <input type="email"  placeholder='Email' name="email" className='rounded-full bg-gray-700 focus:border-blue-500 focus:bg-gray-800 focus:outline-none py-2 px-4 mt-4'/>
